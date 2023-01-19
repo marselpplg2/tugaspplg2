@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var banteng = {
+            nama : "puan",
+            warna : "hitam",
+            jumlah_kaki : 4,
+            mata : {
+                warna_mata : "hitam",
+                warna_tanduk : "hitam"
+            },
+            merah : function (){
+                return "mengejar"
+            },
+            tidurnya : function (){
+                return "wanita";
+            }
+        }
+        document.write("nama : " + banteng.nama + "<br/>");
+        document.write("warna : " + banteng.warna + "<br/>");
+        document.write("jumlah kaki : " + banteng.jumlah_kaki + "<br/>");
+        document.write("jika diberi warna merah : " + banteng.merah("mengejar") + "<br/>");
+        document.write("kelamin : " + banteng.tidurnya("wanita") + "<br/>");
+    </script>
+</body>
+</html>
